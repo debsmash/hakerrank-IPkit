@@ -19,7 +19,11 @@
 //The first line contains an integer n, the number of steps in Gary's hike.
 //The second line contains a single string s, of  characters that describe his path.
     
-    
+//Sample Input
+//8
+//UDDDUDUU
+//Sample Output
+//1
     int countingValleys(int n, string s) {
     int lvl=0,c=0;
     for(int i=0;i<n;i++)
